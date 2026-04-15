@@ -14,7 +14,5 @@ data class User (
     var residentType: String = "",
     var birthDate: String = "",
     var cpf: String = "",
-    var hasParkingSpot: Boolean = false,
-    var parkingSpotCount: Int = 0,
     var isActive: Boolean = true
 )
