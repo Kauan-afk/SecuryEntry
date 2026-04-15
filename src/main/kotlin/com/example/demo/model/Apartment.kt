@@ -6,6 +6,7 @@ data class Apartment(
     var block: String = "",
     var floor: String = "",
     var residentIds: List<String> = emptyList(),
+    var vehicleIds: List<String> = emptyList(),
     var maxResidents: Int = 0,
     var parkingSpotCount: Int = 0,
     var availableParkingSpots: Int = 0,
